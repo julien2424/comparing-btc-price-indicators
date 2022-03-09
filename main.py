@@ -19,7 +19,7 @@ def get_analysis(df, type, axs):
     X = np.array([i for i in range(0, len(df[type]))]).reshape(-1, 1)
     y = np.array(df[type]).reshape(-1, 1)
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
     regr = LinearRegression()
     regr.fit(X_train, y_train)
