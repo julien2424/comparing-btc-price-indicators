@@ -11,13 +11,13 @@ This project analyzes bitcoin historical data to try and predict the future data
 From these different splits, I analyzed how my model will fit the actual results. I decided to take it a step further and analyze 4 different indicators: open, low, high and close. I thought it would be interesting to see if one of these indicators is better at predicting future prices. These results are below.
 
 ### 10% test split
-![](/pictures/10%.png)
+![](pictures/10%25.png)
 
 ### 20% test split
-![](/pictures/20%.png)
+![](pictures/20%25.png)
 
 ### 30% test split
-![](/pictures/30%.png)
+![](pictures/30%25.png)
 
 ### Reflection
 As can be seen from the tables, it seems that a testing split of 30% and a training split of 70% seemed to find the best linear regression model. This is probably cause it’s a good balance of the system having enough data but not overfitting. Moreover, it was surprising to see that all 4 indicatorswere more or less the same. This could be due to daily fluctuations being insignificant over the years.
